@@ -13,7 +13,7 @@ header {
 
 #menu{
     display:flex;
-    gap:20px;
+    gap:15px;
     margin:0px;
     padding:0px;
     justify-content:center;
@@ -47,53 +47,144 @@ nav{
 }
 
 .f{
-    background-color:rgb(120, 41, 224);
+    background-color:rgb(78, 24, 150);
 }
 
 .l{
-    background-color:aqua;
+    background-color:rgb(248, 164, 7);
 }
 
 .m{
-    background-color: grey;
+    background-color: rgb(238, 65, 65);
 }
 
-main{
+/*main{
     display:flex;
     background-color: aqua;
 }
 
 #principal{
-    background-color: yellowgreen;
-
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    justify-content: center;
 }
 
 figure {
     display:flex;
     flex:1;
     justify-content: end;
+    background-color: darksalmon;
 }
 
 figure img{
-    max-width: 280px;
+    max-width: 290px;
 }
 
 #sec_ctd{
-    background-color:grey;
-}
+    display: flex;
+    flex:2;
+    flex-direction: column;
+}*/
+
+main {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(44, 43, 43);
+  }
+  
+  #principal {
+    display: flex;
+    max-width: 1000px;
+    gap: 50px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  figure {
+    flex: 1;
+    margin: 0;
+  }
+  
+  figure img {
+    max-width: 300px; 
+    object-fit: cover; /* Ajusta a imagem de forma proporcional */
+  }
+  
+  #sec_ctd {
+    flex: 2;
+    max-width: 400px;
+    line-height: 0.8;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+  }
+  
+  p {
+    line-height: 1.6;
+    text-align: justify;
+  }
 
 #second{
-    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    height:450px;
 }
 
 .cartaz{
-    background-color:pink;
+    justify-content: center;
+    margin:20px;
 }
 
 .cartaz img {
-    max-width:200px;
+    max-width:190px;
 }
 
 .capa{
-    background-color: blueviolet;
+    justify-content: center;
+}
+
+footer{
+    height: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 43, 43);
+}
+
+#contato{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#email{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+#email a{
+    color: white;
+    text-decoration: none;
+}
+#social{
+    display:flex;
+    flex:2;
+    justify-content: center;
+    gap: 10px;
+}
+
+#social a img{
+    width: 30px;
 }
