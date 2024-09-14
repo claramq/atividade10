@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+
+h1, h2 {
+  font-family: 'Amatic SC';
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+}
+
 header {
     display:flex;
     justify-content:center;
@@ -8,12 +24,12 @@ header {
     display: flex;
     flex:1;
     justify-content:center;
-    width: 110px;
+    width: 140px;
 }
 
 #menu{
     display:flex;
-    gap:15px;
+    gap:5px;
     margin:0px;
     padding:0px;
     justify-content:center;
@@ -23,7 +39,7 @@ nav{
     display: flex;
     flex:1;
     justify-content: center;
-    gap: 15px
+    gap: 5px
 }
 
 .item-menu{
@@ -38,25 +54,25 @@ nav{
 }
 
 .link-menu{
-    color: white;
-    background-color:darkslategrey;
+    color: #fff;
+    background-color: #555;
     margin: 0 10px;
-    padding: 7px 9px; 
+    padding: 6px 8px; 
     border-radius: 5px;
     text-decoration: none;
 }
 
-.f{
-    background-color:rgb(78, 24, 150);
-}
-
-.l{
-    background-color:rgb(248, 164, 7);
-}
-
-.m{
-    background-color: rgb(238, 65, 65);
-}
+.f {
+    background-color: #5b305a;
+  }
+  
+  .l {
+    background-color: #e49756;
+  }
+  
+  .m {
+    background-color: #e04b5a;
+  }
 
 /*main{
     display:flex;
@@ -87,17 +103,19 @@ figure img{
 }*/
 
 main {
+    background-color: #333;
+    color: #ddd;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgb(44, 43, 43);
   }
   
   #principal {
     display: flex;
     max-width: 1000px;
+    align-items: center;
     gap: 50px; /* Espaçamento entre a imagem e o texto */
   }
   
@@ -108,7 +126,7 @@ main {
   
   figure img {
     max-width: 300px; 
-    object-fit: cover; /* Ajusta a imagem de forma proporcional */
+    align-items: center;
   }
   
   #sec_ctd {
@@ -124,7 +142,6 @@ main {
     text-align: right;
     font-size: 2em;
     margin-bottom: 20px;
-    font-family: 'Poppins';
   }
   
   p {
@@ -140,6 +157,10 @@ main {
     height:450px;
 }
 
+#second a{
+    color: #fff;
+  }
+
 .cartaz{
     justify-content: center;
     margin:20px;
@@ -154,11 +175,13 @@ main {
 }
 
 footer{
+    background-color: #333;
+    color: #ddd;
     height: 50px;
     display:flex ;
     justify-content: center;
     align-items: center;
-    background-color: rgb(44, 43, 43);
+    height: 60px;
 }
 
 #contato{
@@ -187,4 +210,26 @@ footer{
 
 #social a img{
     width: 30px;
+}
+
+#sinopse{
+    width: 500px;
+}
+
+#capa{
+    align-items:center;
+}
+
+#descricao{
+    display:flex;
+    flex:1;
+    justify-content: center;
+}
+
+#acesso{
+    display:flex;
+    flex:2;
+    justify-content: center;
+    align items
+    flex-direction: column;
 }
