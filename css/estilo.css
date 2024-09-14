@@ -8,9 +8,7 @@ body {
 h1 {
   font-family: 'Amatic SC';
 }
-h2 {
-  font-family: 'Amatic SC';
-}
+
 
 footer {
   background-color: #333;
@@ -109,6 +107,9 @@ figure img{
     flex-direction: column;
 }*/
 
+h2 {
+  font-family: 'Amatic SC';
+}
 main {
     background-color: #333;
     color: #ddd;
@@ -129,7 +130,7 @@ main {
   figure {
     flex: 1;
     margin: 0;
-    justify-content: end;
+    justify-content: center;
   }
   
   figure img {
@@ -167,17 +168,7 @@ main {
 
 #second a{
     color: #fff;
-  }
-
-.cartaz{
-    justify-content: center;
-    margin:20px;
-}
-
-.cartaz img {
-    max-width:190px;
-}
-
+ 
 .capa{
     justify-content: center;
 }
@@ -208,12 +199,15 @@ footer{
 #email a{
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
+
 #social{
     display:flex;
     flex:2;
     justify-content: center;
     gap: 10px;
+    font-size: 16px;
 }
 
 #social a img{
@@ -228,15 +222,6 @@ footer{
     align-items:center;
 }
 
-#descricao{
-    justify-content: center;
-    margin: 120px 60px;
-    padding: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    color: black;
-    border: 1px solid gray;
-}
-
 #acesso {
   justify-content: center;
   padding: 30px 60px;
@@ -245,4 +230,24 @@ footer{
   text-align: center;
   font-family: 'Amatic SC';
   font-size: 25px;
+}
+
+#descricao{
+  justify-content: center;
+  margin: 120px 60px;
+  padding: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: black;
+  border: 1px solid gray;
+}
+
+}
+
+.cartaz{
+    justify-content: center;
+    margin:20px;
+}
+
+.cartaz img {
+    max-width:190px;
 }
