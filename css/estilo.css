@@ -74,6 +74,10 @@ nav{
     background-color: #e04b5a;
   }
 
+  #second div#descricao {
+    padding-right: 300px;
+  }
+  
 /*main{
     display:flex;
     background-color: aqua;
@@ -122,6 +126,7 @@ main {
   figure {
     flex: 1;
     margin: 0;
+    justify-content: end;
   }
   
   figure img {
@@ -130,8 +135,8 @@ main {
   }
   
   #sec_ctd {
-    flex: 2;
-    max-width: 400px;
+    flex: 1;
+    max-width: 500px;
     line-height: 0.8;
     margin: 0 auto;
     color: #fff;
@@ -154,7 +159,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color:rgb(255, 255, 255);
-    height:450px;
+    height: 600px;
 }
 
 #second a{
@@ -221,15 +226,20 @@ footer{
 }
 
 #descricao{
-    display:flex;
-    flex:1;
     justify-content: center;
+    margin: 120px 60px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: black;
+    border: 1px solid gray;
 }
 
-#acesso{
-    display:flex;
-    flex:2;
-    justify-content: center;
-    align items
-    flex-direction: column;
+#acesso {
+  justify-content: center;
+  padding: 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 25px;
 }
