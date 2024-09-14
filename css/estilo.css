@@ -5,7 +5,10 @@ body {
 }
 
 
-h1, h2 {
+h1 {
+  font-family: 'Amatic SC';
+}
+h2 {
   font-family: 'Amatic SC';
 }
 
@@ -77,7 +80,7 @@ nav{
   #second div#descricao {
     padding-right: 300px;
   }
-  
+
 /*main{
     display:flex;
     background-color: aqua;
